@@ -13,4 +13,7 @@ export class Diray {
 
   @Column({ name: 'content' })
   content: string;
+
+  @Column({ name: 'time' })
+  time: string;
 }
